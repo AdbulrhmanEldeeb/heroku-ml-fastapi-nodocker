@@ -46,4 +46,4 @@ async def predict(payload: ValuesInput):
     result = predict_pipeline(payload)
 
     # Return the prediction in the response
-    return {"class_name": result}
+    return PredictionOut(class_name=result)
