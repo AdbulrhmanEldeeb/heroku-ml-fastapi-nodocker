@@ -1,0 +1,20 @@
+heroku login 
+
+# to make app 
+heroku create unique-app-name
+
+## if it did not create remote git use this command 
+heroku git:remote iris-classifier0129
+
+#when using container 
+heroku stack:set container 
+
+#push changes 
+git push heroku main 
+
+
+ # the remote heroku repo 
+ https://git.heroku.com/iris-classifier0129.git
+
+ # the app 
+ https://iris-classifier0129-c4c12e187db9.herokuapp.com/
