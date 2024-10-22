@@ -18,7 +18,9 @@ heroku repo :
 https://git.heroku.com/iris-no-docker0121.git
 
 ## API Endpoints
-#### GET /: Health check endpoint.
+#### GET /: Health check endpoint:
+
+https://iris-no-docker0121-fc181488f5b1.herokuapp.com/ 
 
 Returns the current status and model version.
 
@@ -31,6 +33,8 @@ Example response:
 }
 ```
 #### POST /predict: Predict the Iris species.
+
+https://iris-no-docker0121-fc181488f5b1.herokuapp.com/predict 
 
 Request body:
 ```json
